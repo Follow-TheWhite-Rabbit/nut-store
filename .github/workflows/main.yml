@@ -39,5 +39,7 @@ jobs:
       - name: Run build
         run: npm run build
 
-      - name: Run deploy
-        run: npm run deploy
+      - name: Deploy
+        uses: jamesives/github-pages-deploy-action@4
+        with:
+          folder: dist
