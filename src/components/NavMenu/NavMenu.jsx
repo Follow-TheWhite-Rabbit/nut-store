@@ -20,7 +20,7 @@ export function NavMenu () {
     return (
         <>
         <menu className="menu">
-            <Link className="menu__item" to="/">Home</Link>
+            <Link className="menu__item" to="/nut-store/">Home</Link>
             <Link className="menu__item" to="basket">Basket</Link>
             <Link className="menu__item" to="favorites">Favorites</Link>
             <ButtonBack/>
