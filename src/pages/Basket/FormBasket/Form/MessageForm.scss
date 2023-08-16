@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding: 40px;
+  align-items: center;
+  width: 350px;
+  margin: 0 auto;
+  border: 3px solid #4E4E4E;
+
+  &__button {
+    display: inline-block;
+    color: white;
+    background-color: #4E4E4E;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+}

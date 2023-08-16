@@ -1,0 +1,31 @@
+.basket {
+  margin: 0 auto;
+  padding: 50px 0;
+  &__title {
+    margin-bottom: 80px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #4E4E4E;
+    text-align: center;
+  }
+  &__list {
+    display: flex;
+
+    &__products {
+      display: flex;
+      flex-direction: column;
+      row-gap: 60px;
+      width: 50%;
+    }
+    &__form {
+      text-align: center;
+      width: 50%;
+    }
+    &__title {
+      font-size: 20px;
+      margin-bottom: 50px;
+    }
+  }
+}
+

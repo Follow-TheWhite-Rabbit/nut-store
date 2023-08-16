@@ -1,0 +1,17 @@
+.Product {
+  margin: 0 auto;
+  &__title {
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    color: #4E4E4E;
+    text-align: center;
+  }
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 10px;
+    //column-gap: 5px;
+  }
+}

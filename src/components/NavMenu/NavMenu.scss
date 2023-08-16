@@ -1,0 +1,14 @@
+.menu {
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  padding: 30px 0;
+  background-color: #4E4E4E;
+
+  &__item {
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,14 @@
+
+.list__items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    &__img {
+      width: 150px;
+      height: 150px;
+    }
+    &__del {
+      cursor: pointer;
+    }
+}

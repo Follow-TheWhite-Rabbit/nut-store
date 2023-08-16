@@ -1,0 +1,93 @@
+
+[
+  {
+    "name": "Almond",
+    "price": 49,
+    "url": "./img/Almond.jpg",
+    "article": 1,
+    "color": "brown",
+    "quantity" : 1
+  },
+
+  {
+    "name": "Brazilian-nut",
+    "price": 85,
+    "url": "./img/Brazilian_nut.jpg",
+    "article": 2,
+    "color": "brown",
+    "quantity" : 1
+  },
+
+  {
+    "name": "Cashew",
+    "price": 68,
+    "url": "./img/Cashew.jpg",
+    "article": 3,
+    "color": "white",
+    "quantity" : 1
+  },
+
+  {
+    "name": "Hazelnut",
+    "price": 49,
+    "url": "./img/Hazelnut.jpg",
+    "article": 4,
+    "color": "brown",
+    "quantity" : 1
+  },
+
+  {
+    "name": "Macadamia",
+    "price": 180,
+    "url": "./img/Macadamia.jpg",
+    "article": 5,
+    "color": "white",
+    "quantity" : 1
+  },
+
+  {
+    "name": "Peanut",
+    "price": 22,
+    "url": "./img/Peanut.jpg",
+    "article": 6,
+    "color": "brown",
+    "quantity" : 1
+  },
+
+  {
+    "name": "Pecan",
+    "price": 120,
+    "url": "./img/Pecan.jpg",
+    "article": 7,
+    "color": "brown",
+    "quantity" : 1
+  },
+
+  {
+    "name": "Pine-nut",
+    "price": 300,
+    "url": "./img/Pine_nut.jpg",
+    "article": 8,
+    "color": "white",
+    "quantity" : 1
+  },
+
+  {
+    "name": "Pistachios",
+    "price": 75,
+    "url": "./img/Pistachios.png",
+    "article": 9,
+    "color": "green",
+    "quantity" : 1
+  },
+
+  {
+    "name": "Walnut",
+    "price": 39,
+    "url": "./img/Walnut.jpg",
+    "article": 10,
+    "color": "brown",
+    "quantity" : 1
+  }
+
+]
