@@ -8,22 +8,22 @@ import React from "react";
 
 export const router = createBrowserRouter([
     {
-        path: "/",
+        path: "/nut-store/",
         element: <NavMenu/>,
         errorElement: <div>Not Found</div>,
         children: [
             {
-                index: "/",
+                index: "/nut-store/",
                 element: <Main/>,
 
             },
             {
-                path: "/basket",
+                path: "/nut-store/basket",
                 element: <Basket/>,
 
             },
             {
-                path: "/favorites",
+                path: "/nut-store/favorites",
                 element: <Favorites/>,
 
             },
