@@ -29,7 +29,7 @@ export function Card (props) {
 
 
         return (
-            <a className="Link" href="#" onClick={event => event.preventDefault()}>
+            <button className="Link" onClick={event => event.preventDefault()}>
                 <img className="Link__img" src={props.nut.url} alt=""/>
                 <h3 className="Link__title">{props.nut.name}</h3>
                 <p className="Link__text"><strong>{props.nut.price}</strong> грн</p>
@@ -42,7 +42,7 @@ export function Card (props) {
                 }/>
                 <Button backgroundColor = "black" text = "Купить" ButtonClick = {() => dispatch({type: 'OPEN_BASKET_MODAL', payload: { productId: props.nut.article }})}/>
 
-            </a>
+            </button>
         )
 }
 Card.propTypes = {
